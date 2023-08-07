@@ -43,11 +43,12 @@ namespace Linq_Second
         where ComicClass.Prices[comic.Issue] > 500
         orderby -ComicClass.Prices[comic.Issue]
         select comic;
-
+            Console.WriteLine();
+            Console.WriteLine();
             foreach (ComicClass comic in mostExpensive)
             {
-                Console.WriteLine();
-                Console.WriteLine();
+           
+               
                 Console.WriteLine($"{comic} is worth {ComicClass.Prices[comic.Issue]:c}");
             }
         }

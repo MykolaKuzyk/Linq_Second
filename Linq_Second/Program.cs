@@ -17,6 +17,8 @@ namespace Linq_Second
             ComicClass newComic = new ComicClass();
             newComic.Comic();
 
+            Exersize example = new Exersize();
+            example.NewLinq();
 
 
 
